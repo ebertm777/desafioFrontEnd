@@ -15,6 +15,8 @@ O Projeto encontra-se hospedado em dois clouds: <br>
 Link 1: <br>
 <a href="https://desafio-front-end.vercel.app/"><h2><b>Ver Online na Vercel!</b></h2></a> 
 
+Link2: <br>
+<a href="https://desafiofrontendglobo.netlify.app/"><h2><b>Ver Online na Netlify!</b></h2></a> 
 
 
 
