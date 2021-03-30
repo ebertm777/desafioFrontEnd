@@ -1,0 +1,106 @@
+header
+    width: 100%
+    display: table
+    border-bottom: 5px solid #b22d30
+    padding-top: 52px
+    padding-bottom: 18px
+
+header .container
+    display: table
+
+header .icon-menu
+    display: none
+
+header nav.navbar
+    display: table-cell
+    vertical-align: bottom
+    text-align: right
+
+header nav.navbar li
+    margin: 0 12px
+    display: inline-block
+    position: relative
+
+header nav.navbar li a
+    font-size: 24px
+    font-family: Georgia, serif
+    color: #000
+    text-decoration: none
+
+header nav.navbar li a img
+    margin-bottom: 2px
+
+header nav.navbar li a:hover
+    color: #cf4346
+
+header nav.navbar li.active a
+    color: #b22d30
+
+header nav.navbar li ul
+    background: #fff
+    position: absolute
+    border-bottom: 4px solid #b22d30
+    width: 220px
+    text-align: left
+    top: 27px
+    left: 0
+    padding-bottom: 9px
+    padding-top: 16px
+    display: none
+    z-index: 100
+
+header nav.navbar li ul li
+    display: block
+    margin: 0 16px
+
+header nav.navbar li ul a
+    font-size: 18px
+
+header nav.navbar li ul a:hover
+    color: #000
+    font-weight: 600
+
+@media screen and (max-width: 768px)
+    header
+        padding-top: 18px
+        position: relative
+
+    header .icon-menu
+        display: block
+        float: right
+        margin-right: 2%
+        margin-top: 3%
+
+    header .icon-menu img
+        width: 80%
+
+    header nav.navbar
+        display: none
+        padding-top: 20px
+        width: 100%
+        position: absolute
+        z-index: 100
+        background: #fff
+
+    header nav.navbar li
+        width: 96%
+        text-align: left
+        padding: 2%
+
+    header nav.navbar li ul
+        position: relative
+        top: 0
+        border: none
+        width: 100%
+        padding: 0
+
+    header nav.navbar li ul li
+        margin: 0
+
+    header img.logo
+        width: 50%
+        margin-left: 10px
+
+@media screen and (max-width: 480px)
+    header .icon-menu img
+        width: 50%

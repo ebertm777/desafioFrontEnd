@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Minuto News</title>
+    <link rel="stylesheet" type="text/css" href="./assets/sass/styles.css" />
+</head>
+
+<body>
+    <header>
+        <div class="container-lg">
+            <div class="container">
+                <a href="./index.html" title="Minuto News">
+                    <img class="logo" alt="Log" src="./assets/images/logo.png">
+                </a>
+                <div class="icon-menu">
+                    <img alt="menu icon" src="./assets/images/hamburguerIcon.png">
+                </div>
+                <nav class="navbar">
+                    <ul>
+                        <li class="active">
+                            <a href="#">Início</a>
+                        </li>
+                        <li>
+                            <a href="">
+                                Brasil
+                                <img src="./assets/images/downArrow.png">
+                            </a>
+                            <ul>
+                                <li>
+                                    <a href="#">Submenu 01</a>
+                                </li>
+                                <li>
+                                    <a href="#">Submenu 02</a>
+                                </li>
+                                <li>
+                                    <a href="#">Submenu 03</a>
+                                </li>
+                                <li>
+                                    <a href="#">Submenu 04</a>
+                                </li>
+                                <li>
+                                    <a href="#">Submenu 05</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Mundo</a>
+                        </li>
+                        <li>
+                            <a href="#">Blogs</a>
+                        </li>
+                        <li>
+                            <a href="#">Assine</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div>
+        <section class="slide">
+            <div id="list-slide"></div>
+            <div id="navigation-slide"></div>
+        </section>
+        <section class="editorias container">
+            <h2>Editorias</h2>
+            <div class="filter">
+                <label for="change-order">Ordenar Por:</label>
+                <select id="change-order">
+                    <option value="1">Data</option>
+                    <option value="2">Alfabetica</option>
+                </select>
+                <div class="line-mobile"></div>
+                <label for="filter-by">Filtrar por:</label>
+                <select id="filter-by">
+                    <option value="">Editorias</option>
+                </select>
+            </div>
+            <div class="cb"></div>
+            <ul id="list-news"></ul>
+        </section>
+        <section class="container-lg graph">
+            <div class="container">
+                <h2>Editorias Mais Acessadas</h2>
+                <div class="grupoChart">
+                    <div class="grafs">
+                        <div class="chart">
+                            <div class="colunaArtesanal primary"><label>75</label>
+                                <div class="bar" style="height: 75%;"><label>Governo</label></div>
+                            </div>
+                            <div class="colunaArtesanal"><label>50</label>
+                                <div class="bar" style="height: 50%;"><label>Carnaval</label></div>
+                            </div>
+                            <div class="colunaArtesanal"><label>45</label>
+                                <div class="bar" style="height: 45%;"><label>Esporte</label></div>
+                            </div>
+                            <div class="colunaArtesanal"><label>30</label>
+                                <div class="bar" style="height: 30%;"><label>Férias</label></div>
+                            </div>
+                            <div class="colunaArtesanal"><label>25</label>
+                                <div class="bar" style="height: 25%;"><label>Outros</label></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <h3>Título aqui</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                            ut
+                            labore
+                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                            nisi
+                            ut
+                            aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                            esse
+                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+                            in
+                            culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                    </div>
+                    <div class="cb"></div>
+                </div>
+            </div>
+        </section>
+        <section id="map"></section>
+        <section class="contact">
+            <div class="container">
+                <h2>Entre em contato</h2>
+                <div class="info-contact">
+                    <h3>Onde nos achar</h3>
+                    <p>
+                        Rua dos Alfeneiros, número 4<br />
+                        00-91102<br />
+                        Little Whitning<br />
+                        Londres/Inglatera<br />
+                        <br />
+                        <br />
+                        (21) 4004 - 1234<br />
+                        (21) 4004 - 4321<br />
+                        <br />
+                        <br />
+                        contato@Minuto News.com.br<br />
+                        <br />
+                        <br />
+                        Aberto de segunda a sexta das 09h as 19h
+                    </p>
+                </div>
+                <div class="form-contact">
+                    <h3>Mande uma mensagem</h3>
+                    <form method="post" action="index.html">
+                        <label for="nome">Seu nome:</label>
+                        <input type="text" name="nome" id="nome" required>
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" required>
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea name="mensagem" id="mensagem"></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+                <div class="cb"></div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="container-lg">
+            <span><span class="copy"></span> © Entrevista | Front-End</span>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="./assets/js/header.js"></script>
+    <script type="text/javascript" src="./assets/js/slide.js"></script>
+    <script type="text/javascript" src="./assets/js/news.js"></script>
+    <script defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyARCwCSIZ_shHEeDkRMYWg_ti2_1uoTHe8&callback=initMap">
+        </script>
+    <script type="text/javascript" src="./assets/js/map.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+</body>
+
+</html>
