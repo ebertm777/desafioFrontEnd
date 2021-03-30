@@ -27,4 +27,4 @@ Link2: <br>
 O Projeto Também pode ser rodado localmente: <br>
 1 - Baixe o .zip do codigo no menu "Code▼" do github. <br>
 2 - Instale o Plugin Live Server do VS Code. <br>
-3 - Click com botao direito em qualquer parte do Index.html e escolha a Opcão "Open with Live Server".
+3 - Click com botão direito em qualquer parte do Index.html e escolha a opcão "Open with Live Server".
