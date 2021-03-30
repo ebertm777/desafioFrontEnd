@@ -8,6 +8,11 @@ Tecnologias Utilizadas: <br>
 JavaScript. <br>
 Sass. <br>
 Jquery. <br>
+HTML. <br>
+
+O Projeto encontra-se hospedado em dois clouds: <br>
+Link 1: <a href="https://desafio-front-end.vercel.app/"><h2><b>Ver Online na Vercel!</b></h2></a> 
+
 
 
 
