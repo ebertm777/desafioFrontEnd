@@ -4,4 +4,10 @@
 
  Criado para o desafio front-end da editora globo. <br>
 
+Tecnologias Utilizadas: <br>
+JavaScript. <br>
+Sass. <br>
+Jquery. <br>
+
+
 
