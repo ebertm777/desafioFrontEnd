@@ -18,5 +18,13 @@ Link 1: <br>
 Link2: <br>
 <a href="https://desafiofrontendglobo.netlify.app/"><h2><b>Ver Online na Netlify!</b></h2></a> 
 
+<br>
+
+<a href="https://i.ibb.co/yN8rfKV/minutopic.jpg"><img src="https://i.ibb.co/yN8rfKV/minutopic.jpg" title="ibb" /></a>
 
 
+<br>
+O Projeto Também pode ser rodado localmente: <br>
+1 - Baixando-se o .zip do codigo no menu "Code▼" do github. <br>
+2 - Instale o Plugin Live Server do VS Code. <br>
+3 - Click com botao direito em qualquer parte do Index.html e escolha a Opcão "Open with Live Server".
